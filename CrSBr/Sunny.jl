@@ -130,11 +130,6 @@ function save_pol_int_zz(sys,h1,h2,k1,k2,E1,E2,Eres,name; fpath1=name, fpath2="E
     end
 end
 
-
-save_int(sys, 0.75, 0.75, 0.5, 2.5, 0, 50, 1.5, "unpol_eres=1.5_D1=0.4txt")
-save_pol_int_yy(sys, 0.75, 0.75, 0.5, 2.5, 0, 50, 1.5, "pol_yy_eres=1.5_D1=0.4txt")
-save_pol_int_zz(sys, 0.75, 0.75, 0.5, 2.5, 0, 50, 1.5, "pol_zz_eres=1.5_D1=0.4txt")
-
 # function save_int_bands(sys, h1,h2,k1,k2,E1,E2,name; fpath=name)
 #     # Save .txt file with intensities of spinwave colorplot
 #     formfactors = [1 => FormFactor("Cr0")]
