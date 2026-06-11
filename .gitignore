@@ -1,0 +1,6 @@
+# Ignore following files #
+############
+*.txt
+*.png
+*.cif
+*.dat
