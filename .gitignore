@@ -1,6 +1,8 @@
 # Ignore following files #
 ############
 *.txt
+!CrSBr/Scattering data/
+!CrSBr/Scattering data/**
 *.png
 *.cif
 *.dat
